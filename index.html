@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gotcha Gachapon</title>
+        <!-- Load Roboto font -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <!-- Load css styles -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+        <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+        <!-- jackie: Added gatcha favicon -->
+        <link rel="shortcut icon" href="images/ico/favicon_ggp.ico">
+    </head>
+    
+    <body>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a href="#" class="brand">
+                        <!-- This is website logo -->
+                        <img src="images/logo.png" width="120" height="40" alt="Logo" />
+                    </a>
+                    <!-- Navigation button, visible on small resolution -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <i class="icon-menu"></i>
+                    </button>
+                    <!-- Main navigation -->
+                    <div class="nav-collapse collapse pull-right">
+                        <ul class="nav" id="top-navigation">
+                            <li class="active"><a href="#home">Home</a></li>
+                            <li ><a href="#amenities">Amenities</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#clients">Testimonials</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- End main navigation -->
+                </div>
+            </div>
+        </div>
+        <!-- Start home section -->
+        <div id="home">
+            <!-- Start cSlider -->
+            <div id="da-slider" class="da-slider">
+                <div class="triangle"></div>
+                <!-- mask elemet use for masking background image -->
+                <div class="mask"></div>
+                <!-- All slides centred in container element -->
+                <div class="container">
+                    <!-- Start first slide -->
+                    <div class="da-slide">
+                        <h2 class="fittext2">Welcome to Gotcha Gachapon!</h2>
+                        <h4>The coolest place to be, ever!</h4>
+                        <p>Elabortate on why you're the coolest place ever. I don't know, I'm not writer. This is just to take up space. Is it working?</p>
+                        <!--<a href="#" class="da-link button">Read more</a> -->
+                        <div class="da-img">
+                            <img src="images/ggp/ggpon-logo-char.png" alt="logo" width="320">
+                        </div>
+                    </div>
+                    <!-- End first slide -->
+                    <!-- Start second slide -->
+                    <div class="da-slide">
+                        <h2>Play all day for $10!</h2>
+                        <h4>we know you're poor</h4>
+                        <p>You read that right. Pay only 10 dollars to get into the arcade and play for as long as you want.</p>
+                        <!--<a href="#" class="da-link button">Read more</a> -->
+                        <div class="da-img">
+                            <img src="images/ggp/heart-eyes.png" width="360" alt="heart-eyes">
+                        </div>
+                    </div>
+                    <!-- End second slide -->
+                    <!-- Start third slide -->
+                    <div class="da-slide centerSlide">
+                        <h2>Announcement</h2>
+                        <h4>Whatever</h4>
+                        <p>Write an announcement here? Or whatever you'd like to display. Can add more slides or take away some.</p>
+                    </div>
+                    <!-- Start third slide -->
+                    <!-- Start cSlide navigation arrows -->
+                    <div class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </div>
+                    <!-- End cSlide navigation arrows -->
+                </div>
+            </div>
+        </div>
+        <!-- End home section -->
+
+        <!-- Amenities section start -->
+        <div class="section secondary-section " id="amenities">
+            <div class="triangle"></div>
+            <div class="container">
+                <p class="hours">We are currently <font color="green">Open</font> <br>
+                <b>Hours:</b> <font size="4">12:00PM - 12:00AM daily</font></p>
+                <div class=" title">
+                    <h1>What to do</h1>
+                    <p>Talk about amenities (arcade games, shop, and soon to come café/bar)</p>
+                </div>
+                <ul class="nav nav-pills">
+                    
+                    <li class="filter" data-filter="arcade">
+                        <a href="#noAction">Arcade</a>
+                    </li>
+                    <li class="filter" data-filter="shop">
+                        <a href="#noAction">Shop</a>
+                    </li>
+                    <li class="filter" data-filter="cafe">
+                        <a href="#noAction">Café/bar</a>
+                    </li>
+                </ul>
+
+                <!-- below are ameneties popup when clicked --> 
+                <div id="single-project">
+                    <!-- start listing all pop-ups here -jackie -->
+                    <div id="arcade1" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <!-- close button for graphic -->
+                            <div class="project-title clearfix">
+                                <span class="show_hide close">
+                                    <i class="icon-cancel"></i>
+                                </span>
+                            </div>
+                            <img src="images/ggp/IIDX.jpg" alt="game 1" />
+                        </div>
+                    </div>                
+                    <div id="arcade2" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <!-- close button for graphic -->
+                            <div class="project-title clearfix">
+                                <span class="show_hide close">
+                                    <i class="icon-cancel"></i>
+                                </span>
+                            </div>
+                            <img src="images/ggp/pump-it-up.jpg" alt="game 2">
+                        </div>
+                    </div>     
+                    <div id="arcade3" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <!-- close button for graphic -->
+                            <div class="project-title clearfix">
+                                <span class="show_hide close">
+                                    <i class="icon-cancel"></i>
+                                </span>
+                            </div>
+                            <img src="images/ggp/Taiko-no-Tatsujin.jpg" alt="game 3">
+                        </div>
+                    </div> 
+                    <div id="arcade4" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <!-- close button for graphic -->
+                            <div class="project-title clearfix">
+                                <span class="show_hide close">
+                                    <i class="icon-cancel"></i>
+                                </span>
+                            </div>
+                            <img src="images/ggp/virtual-on.jpg" alt="game 4">
+                        </div>
+                    </div>   
+                    <div id="arcade5" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <!-- close button for graphic -->
+                            <div class="project-title clearfix">
+                                <span class="show_hide close">
+                                    <i class="icon-cancel"></i>
+                                </span>
+                            </div>
+                            <img src="images/ggp/jubeat.jpg" alt="game 5">
+                        </div>
+                    </div>
+                    <div id="arcade6" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <!-- close button for graphic -->
+                            <div class="project-title clearfix">
+                                <span class="show_hide close">
+                                    <i class="icon-cancel"></i>
+                                </span>
+                            </div>
+                            <img src="images/ggp/dj-technika.jpg" alt="game 6">
+                        </div>
+                    </div> 
+
+                    <!-- SHOP POPUPS -->    
+                    <div id="shop1" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <!-- close button for graphic -->
+                            <div class="project-title clearfix">
+                                <span class="show_hide close">
+                                    <i class="icon-cancel"></i>
+                                </span>
+                            </div>
+                            <img src="images/ggp/shop2.jpg" alt="shop 1">
+                        </div>
+                    </div> 
+                    <div id="shop2" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <!-- close button for graphic -->
+                            <div class="project-title clearfix">
+                                <span class="show_hide close">
+                                    <i class="icon-cancel"></i>
+                                </span>
+                            </div>
+                            <img src="images/ggp/shop3.jpg" alt="shop 2">
+                        </div>
+                    </div> 
+                    <div id="shop3" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <!-- close button for graphic -->
+                            <div class="project-title clearfix">
+                                <span class="show_hide close">
+                                    <i class="icon-cancel"></i>
+                                </span>
+                            </div>
+                            <img src="images/ggp/shop6.jpg" alt="shop 3">
+                        </div>
+                    </div> 
+
+                </div>
+                <!-- End popup code -->
+            
+                    <ul id="portfolio-grid" class="thumbnails row">
+                        <li class="span4 mix arcade">
+                            <div class="thumbnail">
+                                <img src="images/ggp/IIDX.jpg" alt="game 1">
+                                <a href="#single-project" class="more show_hide" rel="#arcade1">
+                                    <i class="icon-plus"></i>
+                                </a> 
+                                <h3>Beatmania IIDX</h3>
+                                <p>Caption with description...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix arcade">
+                            <div class="thumbnail">
+                                <img src="images/ggp/pump-it-up.jpg" alt="game 2">
+                                <a href="#single-project" class="more show_hide" rel="#arcade2">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Pump It Up!</h3>
+                                <p>Caption with description...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix arcade">
+                            <div class="thumbnail">
+                                <img src="images/ggp/Taiko-no-Tatsujin.jpg" alt="game 3">
+                                <a href="#single-project" class="more show_hide" rel="#arcade3">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Taiko no Tatsujin</h3>
+                                <p>Caption with description...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix arcade">
+                            <div class="thumbnail">
+                                <img src="images/ggp/virtual-on.jpg" alt="game 4">
+                                <a href="#single-project" class="more show_hide" rel="#arcade4">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Virtual On</h3>
+                                <p>Caption with description...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix arcade">
+                            <div class="thumbnail">
+                                <img src="images/ggp/jubeat.jpg" alt="game 5">
+                                <a href="#single-project" class="more show_hide" rel="#arcade5">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Jubeat</h3>
+                                <p>Caption with description...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix arcade">
+                            <div class="thumbnail">
+                                <img src="images/ggp/dj-technika.jpg" alt="game 6">
+                                <a href="#single-project" class="more show_hide" rel="#arcade6">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>DJMax Technika</h3>
+                                <p>Caption with description...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <li class="span4 mix shop">
+                            <div class="thumbnail">
+                                <img src="images/ggp/shop2.jpg" alt="shop 1">
+                                <a href="#single-project" class="more show_hide" rel="#shop1">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Anime keychain</h3>
+                                <p>Caption with description...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li> 
+                        <li class="span4 mix shop">
+                            <div class="thumbnail">
+                                <img src="images/ggp/shop3.jpg" alt="shop 2">
+                                <a href="#single-project" class="more show_hide" rel="#shop2">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Anime Figurines</h3>
+                                <p>Caption with description...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li> 
+                        <li class="span4 mix shop">
+                            <div class="thumbnail">
+                                <img src="images/ggp/shop6.jpg" alt="shop 3">
+                                <a href="#single-project" class="more show_hide" rel="#shop3">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>Alpaca's!</h3>
+                                <p>Caption with description...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li> 
+                         <li class="span4 mix cafe comingSoon">
+                            <div class="thumbnail">
+                                <h3>Coming Soon!</h3>
+                                <p>Post more information about the progress of this here...</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li> 
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Amenities section end -->
+
+        <!-- About us section start -->
+        <div class="section primary-section" id="about">
+            <div class="triangle"></div>
+            <div class="container">
+                <div class="title">
+                    <h1>The Team</h1>
+                    <p>We work here, eat here, and sometimes even sleep here.</p>
+                </div>
+                <div class="row-fluid team">
+                    <div class="span4" id="first-person">
+                        <div class="thumbnail">
+                            <img src="images/team-circle.png" alt="team 1">
+                            
+                            <div class="mask">
+                                <h2>Owner</h2>
+                                <p class="team">Insert description and image of me here eventually.</p>
+                            </div>
+
+                        </div>
+                        <h3>George</h3>
+                    </div>
+                    <div class="span4" id="second-person">
+                        <div class="thumbnail">
+                            <img src="images/team-circle.png" alt="team 1">
+                            
+                            <div class="mask">
+                                <h2>Dance Maniax pro!</h2>
+                                <p class="team">I have really good dance moves with my hands! I just pretend that I'm slapping an invisible ghost and it really adds to my dancing style!</p>
+                            </div>
+                        </div>
+                        <h3>Shane</h3>
+                    </div>
+                    <div class="span4" id="third-person">
+                        <div class="thumbnail">
+                            <img src="images/team-circle.png" alt="team 1">
+                            
+                            <div class="mask">
+                                <h2>Manager</h2>
+                                <p class="team">Insert description and image of me here eventually.</p>
+                            </div>
+                        </div>
+                        <h3>John Doe</h3>
+                    </div>
+                </div>
+                <div class="about-text centered">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+                </div>
+            </div>
+        </div>
+        <!-- About us section end -->
+
+        <!-- Testimonials section start -->
+        <div id="clients">
+            <div class="section primary-section">
+                <div class="container">
+                    <div class="title">
+                        <h1>How awesome are people saying we are?</h1>
+                        <p>(They say we're cooler than your grandma)</p>
+                    </div>
+                    <div class="row">
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"SUPER AWESOME KAWAII OMG!!! I would highly recommend this place to anybody!"</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/ggp/jackie-review.png" class="centered" alt="client 1">
+                                    <strong>Jackie
+                                        <small>Regular</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"Came for the games, stayed for the babes."</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/test-PHO.png" class="centered" alt="client 2">
+                                    <strong>Tom
+                                        <small>Regular</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"I just stumbled in one day. Pretty awesome place!"</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/test-PHO.png" class="centered" alt="client 3">
+                                    <strong>Random Dude
+                                        <small>Friend</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        See. These people like us. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- testimonial section end -->
+
+        <!-- Contact section start -->
+        <div id="contact" class="contact">
+            <div class="section secondary-section">
+                <div class="container">
+                    <div class="title">
+                        <h1>Where are we?</h1>
+                        <p>Come hang out with us!</p>
+                    </div>
+                </div>
+                <div class="map-wrapper">
+                    <div class="map-canvas" id="map-canvas"><center>Loading map...</center></div>
+                    <div class="container">
+                        <div class="row-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="span9 center contact-info">
+                        <p class="black"><b>195 East 5th Ave. Columbus, Ohio<b></p>
+                        <p class="black">something@email.com</p>
+                        <p class="black">(614) 555-1234</p>
+                        
+                    </div>
+                    <div class="row-fluid centered">
+                        <ul class="social">
+                            <li>
+                                <a href="https://www.facebook.com/ggpon" target="_blank">
+                                    <span class="icon-facebook-circled"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/GotchaGachapon" target="_blank">
+                                    <span class="icon-twitter-circled"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact section edn -->
+
+        <!-- Footer section start -->
+        <div class="footer">
+            <p>&copy; 2015 Gotcha Gachapon</p>
+        </div>
+        <!-- Footer section end -->
+
+        <!-- ScrollUp button start -->
+        <div class="scrollup">
+            <a href="#">
+                <i class="icon-up-open"></i>
+            </a>
+        </div>
+        <!-- ScrollUp button end -->
+
+        <!-- javascript stoofs -->
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.js"></script>
+        <!-- Load google maps api and call initializeMap function defined in app.js -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>
+        <!-- css3-mediaqueries.js for IE8 or older -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

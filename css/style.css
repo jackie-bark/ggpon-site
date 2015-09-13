@@ -383,6 +383,10 @@ p {
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
+.event {
+	margin-bottom: 30px;
+	margin-top: -75px;
+}
 .primary-section, .primary-section .title p, .primary-section h3 {
     color: #FECE1A;
     text-align:center;
@@ -399,9 +403,7 @@ p {
 .secondary-section h1, .secondary-section .title p {
     color: #181A1C;
 }
-.black p{
-    color: #181A1C;
-}
+
 .team p{
     padding: 20px;
 }
@@ -604,6 +606,13 @@ p {
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
+.testimonial .eventArrow {
+    width:0;
+    border-right:15px solid #0998dc;
+    border-top: 15px outset transparent;
+    border-bottom: 15px outset transparent;
+    margin:-30px 0 10px -10px;
+}
 .testimonial .whopic {
     display:inline-block;
 }
@@ -621,16 +630,25 @@ p {
 .testimonial .whopic small {
     display:block;
     font-size:12px;
-    
+}
+.testimonial .whopic small2 {
+    display:block;
+    font-size:16px;
+    line-height:20px;
+    margin-top:25px;
+    margin-bottom:15px;
+    font-weight:100;
 }
 .testimonial-text{
     display:block;
     font-size:22px;
     text-align:center;
     margin:0 auto;
-    margin-top:30px;
-    width:70%;
+    margin-top:25px;
+    width:100%;
     line-height:1.3em;
+    border-bottom:1px solid #FFF;
+    padding-bottom:25px;
 }
 /*
 3.5 Price table
@@ -923,6 +941,10 @@ p {
     }
 }
 
+/****************** Added styles jackie ***************/
+.black p{
+    color: #181A1C;
+}
 
 hr.style1 {
     border-bottom: .5px solid #FFF;
@@ -939,6 +961,23 @@ hr.style1 {
     font-size:18px;
 }
 
-.comingSoon{
+.comingSoon {
     width:100%;
+}
+
+.calendar {
+	width:auto;
+	height:350px;
+	background-color:white;
+}
+.announce {
+	color: #FFF;
+}
+
+/* changes colors of testimonial bubbles in events section */
+.announce p {
+	background: #0998dc;
+	color:#FFF;
+	font-weight:bold; text-transform:uppercase; font-size:18px;
+	padding:5px;
 }

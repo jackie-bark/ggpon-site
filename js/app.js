@@ -398,6 +398,7 @@ function initializeMap() {
     var marker = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(lat, lon),
+        optimized:false
     });
 
     // this is a window popup when you click on map location

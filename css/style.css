@@ -981,3 +981,12 @@ hr.style1 {
 	font-weight:bold; text-transform:uppercase; font-size:18px;
 	padding:5px;
 }
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:1920px;
+   height:500px; /* your iframe height */
+   top:500px;  /* your iframe height */
+   margin-top:-500px;  /* your iframe height */
+}

@@ -253,6 +253,16 @@ p {
 /*
 2.3 Thumbnails - Predefined bootstrap's thumbnail class.
 **********/
+.aboutCircles {
+	width:50% !important;
+    height:50% !important;
+    margin: auto !important;
+}
+/*.amenitie {
+	width:50% !important;
+    height:50% !important;
+    margin: auto !important;
+} */
  .thumbnail {
     width:100%;
     height:100%;

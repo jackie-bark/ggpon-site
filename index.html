@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+	<!-- preloader js links -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <head>
+    <!--preloader code to tell when page is done loading -->
+    <script>
+    // Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+		$(".pre-background").fadeOut("slow");;
+	});
+	</script>  
         <meta charset=utf-8>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gotcha Gachapon</title>
@@ -30,6 +41,14 @@ iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFn
     </head>
     
     <body>
+    <!-- preloader div -->
+    <div class="pre-background"> <!--preloader background -->
+    	<div class="loading"></div>
+    	<div class="se-pre-con">
+    	</div>
+    </div>
+	<!-- preloader div end -->
+
         <div class="navbar">
             <div class="navbar-inner">
                 <div class="container">
@@ -580,8 +599,7 @@ iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFn
         <script type="text/javascript" src="js/jquery.placeholder.js"></script>
         <script type="text/javascript" src="js/jquery.inview.js"></script>
         <!-- Load google maps api and call initializeMap function defined in app.js -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>
-        
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>        
         <!-- css3-mediaqueries.js for IE8 or older -->
         <!--[if lt IE 9]>
             <script src="js/respond.min.js"></script>

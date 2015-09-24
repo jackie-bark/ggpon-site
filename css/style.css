@@ -483,8 +483,7 @@ p {
 }
 .project-title .close {
     color: #FECE1A;
-    position:absolute;
-    margin-top:25px;
+    margin-top:15px;
 }
 .project-info span, .project-title h3 {
     color:#FECE1A;
@@ -502,9 +501,10 @@ p {
 }
 .close {
     float: right;
-    width: 170%;
+    width: 100%;
     height: auto;
-    text-align: center;
+    text-align: right;
+    padding-left:10px; padding-bottom:10px; padding-right:10px;
 }
 #portfolio-grid .mix {
     opacity: 0;

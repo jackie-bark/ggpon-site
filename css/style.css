@@ -254,8 +254,7 @@ p {
 2.3 Thumbnails - Predefined bootstrap's thumbnail class.
 **********/
 .aboutCircles {
-	width:50% !important;
-    height:50% !important;
+	width:75% !important;
     margin: auto !important;
 }
 /*.amenitie {
@@ -316,7 +315,7 @@ p {
     padding-bottom:20px;
 }
 .thumbnail .mask {
-    opacity:0.85;
+    opacity:0.96;
     filter: alpha(opacity=85);
     top:100%;
     left:0;
@@ -415,7 +414,8 @@ p {
 }
 
 .team p{
-    padding: 20px;
+    padding: 10px;
+    font-size: 15px;
 }
 /* Third section use bacground image */
 .third-section {
@@ -531,7 +531,7 @@ p {
     background: #FECE1A;
 }
 .team .thumbnail .mask h2 {
-    margin-top:20%;
+    margin-top:22%; font-size:25px;
 }
 .team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
     color:#181A17;

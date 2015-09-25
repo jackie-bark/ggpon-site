@@ -8,6 +8,19 @@
  */
  jQuery(document).ready(function ($) {
 
+    
+    var now = new Date().getHours();
+
+    // If time is 12AM - 12PM, spit out "Open" in HTML
+    if ((now > 12) && (now < 24))
+    {
+       //match found
+       $("#amenities p.hours .hoursOpen").html("We are currently <font color='green'><b>Open</b></font>");
+
+    }else{ // If time is NOT 12AM - 12PM, spit out "Closed" in HTML
+        $("#amenities p.hours .hoursOpen").html("We are currently <font color='red'><b>Closed</b></font>");
+    }
+
     var lastId,
     topMenu = $("#top-navigation"),
     topMenuHeight = topMenu.outerHeight(),

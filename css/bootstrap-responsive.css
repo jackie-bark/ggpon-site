@@ -162,7 +162,7 @@
     
   }
   .span4amenitie {
-    width:20%;
+    width:22.5%;
   }
   .span3 {
     width: 270px;
@@ -214,7 +214,7 @@
     *zoom: 1;
   }
   .single-project {
-    width: 89.6%;
+    width: 100%;
     *zoom: 1;
   }
   .row-fluid:before,
@@ -239,6 +239,10 @@
   }
   .row-fluid [class*="span"]:first-child {
     margin-left: 0;
+  }
+  .row-fluid [class*="span6"]:first-child {
+    /* margin-left: 0; */
+    margin-left: 25%;
   }
   .row-fluid .controls-row [class*="span"] + [class*="span"] {
     margin-left: 2.564102564102564%;
@@ -270,8 +274,11 @@
   .row-fluid .span6 {
     /* width: 48.717948717948715%;
     *width: 48.664757228587014%; */
-    width: 100%;
-    *width:100%;
+    
+    /*width: 100%;
+    *width:100%; */
+
+    width:50%;
   }
   .row-fluid .span5 {
     width: 40.17094017094017%;

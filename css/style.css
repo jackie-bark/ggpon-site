@@ -274,7 +274,9 @@ p {
     text-align:center;
     background: #191a1c;
 }
+
 .thumbnail .more {
+    background: url(../images/zoom.png) no-repeat center !important;
     display:block;
     z-index:4;
     position:absolute;
@@ -289,7 +291,8 @@ p {
     text-decoration:none;
     line-height: 70px;
     text-align: center;
-}
+} 
+
 .thumbnail:hover .more {
     top:40%;
     margin-top:-40px;
@@ -884,9 +887,11 @@ p {
  @media (min-width: 1200px) {
     .thumbnail .more {
         margin-left:-41px;
-        width:80px;
-        height:80px;
-        border-radius:40px;
+        /*width:60px;
+        height:60px; */
+        width:35%;
+        height:15%;
+        border-radius:0px;
         line-height: 80px;
     }
 }

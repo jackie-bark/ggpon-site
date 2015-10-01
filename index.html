@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- preloader js links -->
+    <!-- preloader js links -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <head>
     <!--preloader code to tell when page is done loading -->
     <script>
     // Wait for window load
-	$(window).load(function() {
-		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
-		$(".pre-background").fadeOut("slow");;
-	});
-	</script>  
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+        $(".pre-background").fadeOut("slow");;
+    });
+    </script>  
         <meta charset=utf-8>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gotcha Gachapon</title>
@@ -43,11 +43,11 @@ iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFn
     <body>
     <!-- preloader div -->
     <div class="pre-background"> <!--preloader background -->
-    	<div class="loading"></div>
-    	<div class="se-pre-con">
-    	</div>
+        <div class="loading"></div>
+        <div class="se-pre-con">
+        </div>
     </div>
-	<!-- preloader div end -->
+    <!-- preloader div end -->
 
         <div class="navbar">
             <div class="navbar-inner">
@@ -110,7 +110,7 @@ iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFn
                     <div class="da-slide centerSlide">
                         <h2>Announcement</h2>
                         <h4>Whatever</h4>
-                        <p>Write an announcement here? Or whatever you'd like to display. Can add more slides or take away some.</p>
+                        <p class="noImg">Write an announcement here? Or whatever you'd like to display. Can add more slides or take away some.</p>
                     </div>
                     <!-- Start third slide -->
                     <!-- Start cSlide navigation arrows -->
@@ -136,243 +136,92 @@ iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFn
                     <h1>What to do</h1>
                     <p>Talk about amenities (arcade games, shop, and soon to come café/bar)</p>
                 </div>
-                <ul class="nav nav-pills">
-                    
-                    <li class="filter" data-filter="arcade">
-                        <a href="#noAction">Arcade</a>
-                    </li>
-                    <li class="filter" data-filter="shop">
-                        <a href="#noAction">Shop</a>
-                    </li>
-                    <li class="filter" data-filter="cafe">
-                        <a href="#noAction">Café/bar</a>
-                    </li>
-                </ul>
-
-                <!-- below are ameneties popup when clicked --> 
-                <div id="single-project">
-                    <!-- start listing all pop-ups here -jackie -->
-                    <div id="arcade1" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <!-- close button for graphic -->
-                            <div class="project-title clearfix">
-                                <span class="show_hide close">
-                                    <i class="icon-cancel"></i>
-                                </span>
-                            </div>
-                            <img src="images/ggp/IIDX.jpg" alt="game 1" />
-                        </div>
-                    </div>                
-                    <div id="arcade2" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <!-- close button for graphic -->
-                            <div class="project-title clearfix">
-                                <span class="show_hide close">
-                                    <i class="icon-cancel"></i>
-                                </span>
-                            </div>
-                            <img src="images/ggp/pump-it-up.jpg" alt="game 2">
-                        </div>
-                    </div>     
-                    <div id="arcade3" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <!-- close button for graphic -->
-                            <div class="project-title clearfix">
-                                <span class="show_hide close">
-                                    <i class="icon-cancel"></i>
-                                </span>
-                            </div>
-                            <img src="images/ggp/Taiko-no-Tatsujin.jpg" alt="game 3">
-                        </div>
-                    </div> 
-                    <div id="arcade4" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <!-- close button for graphic -->
-                            <div class="project-title clearfix">
-                                <span class="show_hide close">
-                                    <i class="icon-cancel"></i>
-                                </span>
-                            </div>
-                            <img src="images/ggp/virtual-on.jpg" alt="game 4">
-                        </div>
-                    </div>   
-                    <div id="arcade5" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <!-- close button for graphic -->
-                            <div class="project-title clearfix">
-                                <span class="show_hide close">
-                                    <i class="icon-cancel"></i>
-                                </span>
-                            </div>
-                            <img src="images/ggp/jubeat.jpg" alt="game 5">
-                        </div>
-                    </div>
-                    <div id="arcade6" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            
-                            <div class="project-title clearfix">
-                                <span class="show_hide close">
-                                    <i class="icon-cancel"></i>
-                                </span>
-                            </div>
-                            <img src="images/ggp/dj-technika.jpg" alt="game 6">
-                        </div>
-                    </div>              
-
-                    <!-- SHOP POPUPS -->    
-                    <div id="shop1" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <!-- close button for graphic -->
-                            <div class="project-title clearfix">
-                                <span class="show_hide close">
-                                    <i class="icon-cancel"></i>
-                                </span>
-                            </div>
-                            <img src="images/ggp/shop2.jpg" alt="shop 1">
-                        </div>
-                    </div> 
-                    <div id="shop2" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <!-- close button for graphic -->
-                            <div class="project-title clearfix">
-                                <span class="show_hide close">
-                                    <i class="icon-cancel"></i>
-                                </span>
-                            </div>
-                            <img src="images/ggp/shop3.jpg" alt="shop 2">
-                        </div>
-                    </div> 
-                    <div id="shop3" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <!-- close button for graphic -->
-                            <div class="project-title clearfix">
-                                <span class="show_hide close">
-                                    <i class="icon-cancel"></i>
-                                </span>
-                            </div>
-                            <img src="images/ggp/shop6.jpg" alt="shop 3">
-                        </div>
-                    </div> 
-
-                </div>
-                <!-- End popup code -->
-            
-                <!-- start ameneties photo grid -->  
-                    <ul id="portfolio-grid" class="thumbnails row">
-                        <li class="span4amenitie mix arcade">
-                            <div class="thumbnail">
-                                <img src="images/ggp/IIDX.jpg" alt="game 1">
-                                <a href="#single-project" class="more show_hide" rel="#arcade1">
-                                    <!--<i class="icon-plus"></i> -->
-                                </a> 
-                                <h3>Beatmania IIDX</h3>
-                                <p>Caption with description...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4amenitie mix arcade">
-                            <div class="thumbnail">
-                                <img src="images/ggp/pump-it-up.jpg" alt="game 2">
-                                <a href="#single-project" class="more show_hide" rel="#arcade2">
-                                    <!--<i class="icon-plus"></i> -->
-                                </a>
-                                <h3>Pump It Up!</h3>
-                                <p>Caption with description...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4amenitie mix arcade">
-                            <div class="thumbnail">
-                                <img src="images/ggp/Taiko-no-Tatsujin.jpg" alt="game 3">
-                                <a href="#single-project" class="more show_hide" rel="#arcade3">
-                                    <!--<i class="icon-plus"></i> -->
-                                </a>
-                                <h3>Taiko no Tatsujin</h3>
-                                <p>Caption with description...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4amenitie mix arcade">
-                            <div class="thumbnail">
-                                <img src="images/ggp/virtual-on.jpg" alt="game 4">
-                                <a href="#single-project" class="more show_hide" rel="#arcade4">
-                                    <!--<i class="icon-plus"></i> -->
-                                </a>
-                                <h3>Virtual On</h3>
-                                <p>Caption with description...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4amenitie mix arcade">
-                            <div class="thumbnail">
-                                <img src="images/ggp/jubeat.jpg" alt="game 5">
-                                <a href="#single-project" class="more show_hide" rel="#arcade5">
-                                    <!--<i class="icon-plus"></i> -->
-                                </a>
-                                <h3>Jubeat</h3>
-                                <p>Caption with description...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4amenitie mix arcade">
-                            <div class="thumbnail">
-                                <img src="images/ggp/dj-technika.jpg" alt="game 6">
-                                <a href="#single-project" class="more show_hide" rel="#arcade6">
-                                    <!--<i class="icon-plus"></i> -->
-                                </a>
-                                <h3>DJMax Technika</h3>
-                                <p>Caption with description...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>           
-                        <li class="span4amenitie mix shop">
-                            <div class="thumbnail">
-                                <img src="images/ggp/shop2.jpg" alt="shop 1">
-                                <a href="#single-project" class="more show_hide" rel="#shop1">
-                                    <!--<i class="icon-plus"></i> -->
-                                </a>
-                                <h3>Anime keychain</h3>
-                                <p>Caption with description...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li> 
-                        <li class="span4amenitie mix shop">
-                            <div class="thumbnail">
-                                <img src="images/ggp/shop3.jpg" alt="shop 2">
-                                <a href="#single-project" class="more show_hide" rel="#shop2">
-                                    <!--<i class="icon-plus"></i> -->
-                                </a>
-                                <h3>Anime Figurines</h3>
-                                <p>Caption with description...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li> 
-                        <li class="span4amenitie mix shop">
-                            <div class="thumbnail">
-                                <img src="images/ggp/shop6.jpg" alt="shop 3">
-                                <a href="#single-project" class="more show_hide" rel="#shop3">
-                                    <!--<i class="icon-plus"></i> -->
-                                </a>
-                                <h3>Alpaca's!</h3>
-                                <p>Caption with description...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li> 
-                         <li class="span4 mix cafe comingSoon">
-                            <div class="thumbnail">
-                                <h3>Coming Soon!</h3>
-                                <p>Post more information about the progress of this here...</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li> 
-
-                    </ul>
                 </div>
             </div>
         </div>
         <!-- Amenities section end -->
 
-        <!-- About us section start -->
+        <!-- new amenities grid start -->
+        <div id ="pillsContain">
+            <ul class="nav nav-pills">
+                <li class="filter" data-filter="arcade">
+                    <a href="#noAction">Arcade</a>
+                </li>
+                <li class="filter" data-filter="shop">
+                    <a href="#noAction">Shop</a>
+                </li>
+                <li class="filter" data-filter="cafe">
+                    <a href="#noAction">Café/bar</a>
+                </li>
+            </ul>
+        </div>
+<div id="portfolio-grid" class="">
+        <div class ="image-zoom-container">
+                <ul class="rig columns-6">
+                    <li class="mix arcade">
+                        <div class="zoom-container">
+                            <img src="images/ggp/IIDX.jpg" />
+                        </div>
+                            <div class="zoom-caption">
+                                <h3>Beatmania IIDX</h3>
+                                <p>Push the buttons really fast!</p>
+                            </div>
+                    </li>
+                    <li class="mix arcade">
+                        <div class="zoom-container">
+                            <img src="images/ggp/pump-it-up.jpg" />
+                        </div>
+                            <div class="zoom-caption">
+                                <h3>Pump It Up!</h3>
+                                <p>Step on the arrow thingies really fast!</p>
+                            </div>
+                    </li>
+                    <li class="mix arcade">
+                        <div class="zoom-container">
+                            <img src="images/ggp/Taiko-no-Tatsujin.jpg" />
+                        </div>
+                            <div class="zoom-caption">
+                                <h3>Taiko no Tatsujin</h3>
+                                <p>Smack on the drums really fast!</p>
+                            </div>
+                    </li>
+                    <li class="mix arcade">
+                        <div class="zoom-container">
+                            <img src="images/ggp/virtual-on.jpg" />
+                        </div>
+                            <div class="zoom-caption">
+                                <h3>Virtual On</h3>
+                                <p>Lose against the AI really fast!</p>
+                            </div>
+                    </li>
+                    <li class="mix arcade">
+                        <div class="zoom-container">
+                            <img src="images/ggp/jubeat.jpg" />
+                        </div>
+                            <div class="zoom-caption">
+                                <h3>Jubeat</h3>
+                                <p>Tap on the squares with pictures really fast!</p>
+                            </div>
+                    </li>
+                    <li class="mix arcade">
+                        <div class="zoom-container">
+                            <img src="images/ggp/dj-technika.jpg" />
+                        </div>
+                            <div class="zoom-caption">
+                                <h3>DJMax Technika</h3>
+                                <p>Poke at the screen really fast!</p>
+                            </div>
+                    </li>
+                    <!-- example of normal grid without the zoom feature added 
+                    <li>
+                        <img src="images/ggp/dj-technika.jpg" />
+                        <h3>Image Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    </li> -->
+                </ul>
+        </div>
+</div>
+        <!-- /////////////////////////// About us section start ///////////////////////////////////-->
         <div class="section primary-section" id="about">
             <div class="triangle"></div>
             <div class="container">
@@ -490,7 +339,7 @@ iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFn
                     <div class="row">
                         <div class="span7">
                             <div class="calendar">
-                       			<!-- insert embedded Google Calendar -->
+                                <!-- insert embedded Google Calendar -->
                                 <iframe src="https://www.google.com/calendar/embed?title=Events&amp;height=350&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=eoi9naalenuq1f5ot2n8guhbio%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FNew_York" style=" border-width:0 " width="100%" height="350" frameborder="0" scrolling="no"></iframe>
                             </div>
                         </div>
@@ -502,13 +351,13 @@ iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFn
                                     <strong>HAPPY HOUR ALL DAY!</strong>
                                 </div>
                                 <div class="whopic">
-                                	<small2>this is some text blah blah blah. this is some text blah blah blah. this is some text blah blah blah. this is some text blah blah blah. this is some text blah blah blah. this is some text blah blah blah.</small2>
+                                    <small2>this is some text blah blah blah. this is some text blah blah blah. this is some text blah blah blah. this is some text blah blah blah. this is some text blah blah blah. this is some text blah blah blah.</small2>
                                 </div>
                                 <div class="whopic">                      
                                     <strong>Closed this Saturday</strong>
                                 </div>
                                 <div class="whopic">
-                                	<small2>We will be closed this Saturday due to maintenance on the arcade games. We will re-open the following day at usual hours.</small2>
+                                    <small2>We will be closed this Saturday due to maintenance on the arcade games. We will re-open the following day at usual hours.</small2>
                                 </div>
                             </div>
                             <div class="testimonial">
@@ -518,7 +367,7 @@ iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFn
                                     <strong>Arcade play sale</strong>
                                 </div>
                                 <div class="whopic">
-                                	<small2>Next Monday, play all day for just $8 instead of $10</small2>
+                                    <small2>Next Monday, play all day for just $8 instead of $10</small2>
                                 </div>
                             </div>
                                                        

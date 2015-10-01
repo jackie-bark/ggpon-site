@@ -1302,28 +1302,87 @@
     .da-slide h2 {
         font-size: 20px;
         top:40px;
+        padding-left:15px;
     }
     
      .da-slide h4 {
         font-size: 16px;
         top:80px;
+         padding-left:15px;
     }
     
     .da-slide p {
-        display:none;
+        display:block;
+         padding-left:15px;
     }
     .da-slide .da-img {
         top:50px;
-        width:30%;    
+        width:28%;    
     }  
     .da-slide .da-link{
         margin:0;
         font-size:12px;
         top:150px; 
     }  
+    .row .thumbnails {
+        max-width:150px;
+    }
 }
 
-@media (max-width: 480px) {
+/* HTC One Portrait */
+@media only screen and (max-width: 480px) {
+    .da-slide h2 {
+        font-size: 16px;
+        top:30px;
+    } 
+    .da-slide h4{
+        font-size: 14px;
+        top: 70px;
+    }
+    .da-slide .da-img {
+        display:none;
+    } 
+    .da-slide .da-link {
+        display:none;
+    } 
+    
+    .da-slide p {
+        width:215px;
+        padding:15px;
+        display:block !important; text-align: center;
+    }
+    .centerSlide{
+        left:0 !important;
+    }
+    .container{
+        width:auto !important;
+    }
+    .da-slider{
+        height: 380px! important;
+        display:none;
+    }
+    .da-arrows-next, .da-arrows-prev{
+        top:10px;
+    }
+    .da-slide .da-img{
+        display:block !important;
+        width:40% !important;
+        margin: 215px 0 0 -105px !important; top:0 !important;
+    }
+    /* amenities */
+    .nav-pills > li {
+        float:none;
+        text-align: center;
+    }
+    .nav-pills {
+        margin-left:auto;
+        margin-right:auto;
+        display:table;
+    }
+}
+
+/* HTC One Landscape */
+@media only screen and (max-width: 765px) {
     .da-slide h2 {
         font-size: 16px;
         top:30px;
@@ -1340,4 +1399,42 @@
     .da-slide .da-link {
         display:none;
     } 
-}
+
+    .da-slide p {
+        display:block !important; text-align: center; width:80%;
+    }
+
+    .centerSlide{
+        left:0 !important;
+    }
+    .container{
+        width:auto !important;
+    }
+    .da-slider{
+        height: 380px! important;
+    }
+    .da-arrows-next, .da-arrows-prev{
+        top:10px;
+    }
+    .da-slide .da-img{
+        display:block !important;
+        width:40% !important;
+        margin: 200px 0 0 -110px !important; top:0 !important;
+    }
+    .da-slide h2 {
+        width:100%; text-align: center;
+    }
+    .da-slide h4 {
+        width:100%; text-align: center;
+    }
+    /* amenities */
+    .nav-pills > li {
+        float:none;
+        text-align: center;
+    }
+    .nav-pills {
+        margin-left:auto;
+        margin-right:auto;
+        display:table;
+    }
+} 

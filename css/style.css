@@ -97,7 +97,7 @@ p {
     transition: border-color 1s ease;
 }
 .nav-pills {
-    margin-bottom: 30px;
+    margin:0 5%;
 }
 .nav-pills > li > a {
     background: transparent;
@@ -366,7 +366,7 @@ p {
 3. Sections 
 ***************************************************************************/
  .section {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 .section .container {
     padding-top:50px;
@@ -1035,3 +1035,171 @@ hr.style1 {
 	left:-63px;
 	top:64px;
 }
+
+/* New ameneties grid styles */
+
+ul.rig {
+    list-style: none;
+    font-size: 0px;
+    /*margin-left: 1.5%;  should match li left margin */
+    margin-left: 4.5%;
+    margin-bottom:0px;
+}
+ul.rig li {
+    display: inline-block;
+    padding: 10px;
+    /* margin: 0 0 1.5% 1.5%; */
+    margin: 0 0 .5% .5%;
+    background: #191a1c;
+    /* border: 1px solid #ddd;
+    box-shadow: 0 0 5px #ddd; */
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+ul.rig li img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px;
+}
+ul.rig li h3 {
+    margin: 0 0 5px;
+    color:#FECE1A;
+    padding:10px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+}
+ul.rig li p {
+    font-size: 17px;
+    line-height: 1.5em;
+    color: #FFF;
+    font-family:'Roboto', sans-serif;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+    width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+    width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+    width: 22.5%; /* this value + 2.5 should = 25% */
+}
+/* class for 5 columns */
+ul.rig.columns-5 li {
+    width: 18.5%; /* this value + 2.5 should = 25% */
+}
+/* class for 5 columns */
+ul.rig.columns-6 li {
+    width: 15.2%; /* this value + 2.5 should = 25% */
+}
+@media (max-width: 480px) {
+    ul.grid-nav li {
+        display: block;
+        margin: 0 0 5px;
+    }
+    ul.grid-nav li a {
+        display: block;
+    }
+    ul.rig {
+        margin-left: 0;
+    }
+    ul.rig li {
+        width: 100% !important; /* over-ride all li styles */
+        margin: 0 0 20px;
+    }
+}
+
+/* zoom image styles */
+.image-zoom-container {
+    list-style: none;
+    font-size: 0px;
+    background-color: #FECE1A;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.zoom-container {
+    position: relative;
+    overflow: hidden;
+    /*display: inline-block;
+    width: 33.33%;*/
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.zoom-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+        -moz-transition: all .5s ease; /* Firefox */
+        -ms-transition: all .5s ease; /* IE 9 */
+        -o-transition: all .5s ease; /* Opera */
+        transition: all .5s ease;
+}
+.zoom-container .zoom-caption {
+    background-color: #F7F7F7;
+}
+.zoom-caption{
+    background-color: #191a1c;
+    text-align: center;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.zoom-container .zoom-caption h3 {
+    display: block;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #666;
+    margin: 23% 0 0;
+    padding: 10px 0;
+    border-top: 5px solid rgba(255, 255, 255, .15);
+    border-bottom: 5px solid rgba(255, 255, 255, .15);
+}
+.zoom-container:hover img {
+    -webkit-transform:scale(1.40); /* Safari and Chrome */
+        -moz-transform:scale(1.40); /* Firefox */
+        -ms-transform:scale(1.40); /* IE 9 */
+        -o-transform:scale(1.40); /* Opera */
+         transform:scale(1.40);
+}
+.zoom-container:hover .zoom-caption {
+    background: none;
+}
+ 
+@media (max-width: 767px) {
+    .zoom-container {
+        width: 50%;
+    }
+}
+ 
+@media (max-width: 480px) {
+    .zoom-container {
+        width: 100%;
+    }
+}
+
+
+ul.nav.nav-pills{
+
+}
+
+#pillsContain{
+    background-color: #FECE1A;
+}
+

@@ -12,7 +12,7 @@
     var now = new Date().getHours();
 
     // If time is 12AM - 12PM, spit out "Open" in HTML
-    if ((now > 12) && (now < 24))
+    if ((now > 11) && (now < 24))
     {
        //match found
        $("#amenities p.hours .hoursOpen").html("We are currently <font color='green'><b>Open</b></font>");

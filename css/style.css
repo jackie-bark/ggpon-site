@@ -956,6 +956,90 @@ p {
     }
 }
 
+@media (max-width: 360px) {
+    body {
+        padding-left:0;
+        padding-right:0;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: relative !important;
+    }
+    .navbar .nav > li > a {
+        line-height: 20px;
+        vertical-align: middle;
+    }
+    .section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .nav-collapse {
+        clear: both;
+    }
+    .nav-collapse .nav {
+        float: none;
+        margin: 0 0 10px;
+    }
+    .nav-collapse .nav > li {
+        float: none;
+    }
+    .nav-collapse, .nav-collapse.collapse {
+        width: 100%;
+        display: inherit;
+    }
+    .thumbnail .more {
+        margin-left:-21px;
+        width:40px;
+        height:40px;
+        border-radius:30px;
+        line-height: 40px;
+    }
+    .thumbnail:hover .more {
+        margin-top:-20px;
+    }
+    .newsletter form {
+        text-align:center;
+    }
+    ul.nav.nav-pills{
+        width:90%;
+    }
+    ul.rig.columns-6{
+       
+    }
+    #portfolio-grid ul.rig.columns-6 li{
+        width:47.5% !important;
+        height:500px !important;
+         margin:0 0 1% 1% !important;
+    }
+    .zoom-container{
+        width:100% !important;
+    }
+    #portfolio-grid.mix{
+        height:495px !important;
+    }
+    .team .thumbnail .mask h2{
+        font-size:24px !important;
+        margin:35px 0 !important;
+    }
+    .team .thumbnail .mask p{
+        font-size:15px !important;
+        padding:12px !important;
+    }
+    .mask{
+        padding:0px;
+    }
+    .row-fluid [class*="span4"] {
+        display:inline-block !important;
+        min-width:100% !important;
+    }
+    .aboutCircles{
+        width:100% !important;
+    }
+}
+
 @media (max-width: 640px) {
     body {
         padding-left:0;
@@ -1039,81 +1123,6 @@ p {
     }   
 }
 
-@media (max-width: 360px) {
-    body {
-        padding-left:0;
-        padding-right:0;
-    }
-    .navbar-fixed-top, .navbar-fixed-bottom {
-        position: relative !important;
-    }
-    .navbar .nav > li > a {
-        line-height: 20px;
-        vertical-align: middle;
-    }
-    .section {
-        padding-left:20px;
-        padding-right:20px;
-    }
-    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .nav-collapse {
-        clear: both;
-    }
-    .nav-collapse .nav {
-        float: none;
-        margin: 0 0 10px;
-    }
-    .nav-collapse .nav > li {
-        float: none;
-    }
-    .nav-collapse, .nav-collapse.collapse {
-        width: 100%;
-        display: inherit;
-    }
-    .thumbnail .more {
-        margin-left:-21px;
-        width:40px;
-        height:40px;
-        border-radius:30px;
-        line-height: 40px;
-    }
-    .thumbnail:hover .more {
-        margin-top:-20px;
-    }
-    .newsletter form {
-        text-align:center;
-    }
-    ul.nav.nav-pills{
-        width:90%;
-    }
-    ul.rig.columns-6{
-        width:100%;
-    }
-    .zoom-container{
-        width:100% !important;
-    }
-    #portfolio-grid.mix{
-        height:495px !important;
-    }
-    .mask h2{
-        font-size:24px;
-        margin:10px 0;
-    }
-    .team p{
-        font-size:11px;
-        padding:12px;
-    }
-    .mask{
-        padding:0px;
-    }
-    .row-fluid [class*="span"] {
-        display:inline-block !important;
-        width:45% !important;
-    }
-}
 /****************** Added styles jackie ***************/
 .black p{
     color: #181A1C;

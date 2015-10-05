@@ -1186,15 +1186,17 @@ hr.style1 {
 	z-index: 9999;
 	background: url(../images/preloader2.gif) center no-repeat;
 }
+
 .pre-background{
-	background: url(../images/pattern.png)center repeat;
+    background-color:white;
+	/*background: url(../images/pattern.png)center repeat;*/
 	width:100%;
 	height:100%;
 	position:fixed;
 	z-index: 9999;
-}
+} 
 .loading{
-	background: url(../images/loading.png)center no-repeat;
+	/*background: url(../images/loading.png)center no-repeat;*/
 	width:100%;
 	height:100%;
 	position:fixed;

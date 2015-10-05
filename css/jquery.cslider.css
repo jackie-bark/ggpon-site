@@ -1382,7 +1382,7 @@
 }
 
 /* HTC One Landscape */
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 640px) {
     .da-slide h2 {
         font-size: 16px;
         top:30px;
@@ -1401,7 +1401,7 @@
     } 
 
     .da-slide p {
-        display:block !important; text-align: center; width:80%;
+        display:block !important; text-align: center; width:77%;
     }
 
     .centerSlide{
@@ -1418,14 +1418,14 @@
     }
     .da-slide .da-img{
         display:block !important;
-        width:40% !important;
-        margin: 200px 0 0 -110px !important; top:0 !important;
+        /*width:40% !important; */
+        margin: 175px 0 0 -145px !important; top:0 !important;
     }
     .da-slide h2 {
-        width:100%; text-align: center;
+        width:75%; text-align: center;
     }
     .da-slide h4 {
-        width:100%; text-align: center;
+        width:74%; text-align: center;
     }
     /* amenities */
     .nav-pills > li {

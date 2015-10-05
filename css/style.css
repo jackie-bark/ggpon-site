@@ -660,7 +660,7 @@ p {
     margin-top:25px;
     width:100%;
     line-height:1.3em;
-    border-bottom:1px solid #FFF;
+    /*border-bottom:1px solid #FFF;*/
     padding-bottom:25px;
 }
 /*
@@ -1007,10 +1007,10 @@ p {
         width:90%;
     }
     ul.rig.columns-6{
-        width:100%;
+        
     }
     ul.rig.columns-6 li{
-        width:30.83%;
+        width:30.83% !important;
         height:500px;
     }
     ul.rig{

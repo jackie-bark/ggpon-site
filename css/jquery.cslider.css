@@ -1406,6 +1406,7 @@
 
     .centerSlide{
         left:0 !important;
+        top:80px;
     }
     .container{
         width:auto !important;

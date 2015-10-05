@@ -1011,7 +1011,7 @@ p {
     }
     ul.rig.columns-6 li{
         width:30.83% !important;
-        height:500px;
+        height:500px !important;
     }
     ul.rig{
         margin-left: 2.5%;

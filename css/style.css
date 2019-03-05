@@ -21,7 +21,7 @@
  3.6 Newsletter
  3.7 Contact
  3.8 Footer
-4 Responsive 
+4 Responsive
 **********************************************************************/
 
 /*
@@ -291,7 +291,7 @@ p {
     text-decoration:none;
     line-height: 70px;
     text-align: center;
-} 
+}
 
 .thumbnail:hover .more {
     top:40%;
@@ -302,7 +302,7 @@ p {
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
-.thumbnail h3, 
+.thumbnail h3,
 .thumbnail p {
     margin:0;
     padding:0;
@@ -363,7 +363,7 @@ p {
     color:#ed2226;
 }
 /*
-3. Sections 
+3. Sections
 ***************************************************************************/
  .section {
     /* padding-bottom: 50px; */
@@ -374,7 +374,7 @@ p {
 .section .title {
     text-align: center;
     padding:10px;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 .section .title h1 {
     font-weight: normal;
@@ -441,7 +441,7 @@ p {
     padding:0;
 }
 /*******
-3.1 Services  
+3.1 Services
 ***************************************/
 .service{
     margin-top:20px;
@@ -611,6 +611,7 @@ p {
     background:#FECE1A;
     padding:15px;
     margin:0;
+    height: 40px;
 }
 .testimonial .arrow {
     margin-left:10px;
@@ -812,7 +813,7 @@ p {
     color:#181A1C;
 }
 .contact .social li a:hover {
-    color:#0999d8; 
+    color:#0999d8;
 }
 .contact-form {
     background:#fff;
@@ -1007,12 +1008,15 @@ p {
         width:90%;
     }
     ul.rig.columns-6{
-       
+
     }
     #portfolio-grid ul.rig.columns-6 li{
         width:47.5% !important;
         height:500px !important;
          margin:0 0 1% 1% !important;
+        width:47.5%;
+        height:500px;
+         margin:0 0 1% 1%;
     }
     .zoom-container{
         width:100% !important;
@@ -1091,7 +1095,7 @@ p {
         width:90%;
     }
     ul.rig.columns-6{
-        
+
     }
     ul.rig.columns-6 li{
         width:30.83% !important;
@@ -1120,7 +1124,7 @@ p {
     .row-fluid [class*="span"] {
         display:inline-block !important;
         width:45% !important;
-    }   
+    }
 }
 
 /****************** Added styles jackie ***************/
@@ -1325,6 +1329,7 @@ ul.rig.columns-6 li {
     border-radius: 0;
     overflow: hidden;
     padding: 0;
+    height: 150px;
 }
 .zoom-container .zoom-caption h3 {
     display: block;
@@ -1350,7 +1355,6 @@ ul.rig.columns-6 li {
 .zoom-container:hover .zoom-caption {
     background: none;
 }
- 
 @media (max-width: 767px) {
     .zoom-container {
         width: 50%;
@@ -1366,6 +1370,7 @@ ul.rig.columns-6 li {
 
 ul.nav.nav-pills{
 
+font-size: 24px;
 }
 
 #pillsContain{

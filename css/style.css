@@ -374,7 +374,7 @@ p {
 .section .title {
     text-align: center;
     padding:10px;
-    /*margin-bottom: 30px;*/
+    margin-bottom: 30px;
 }
 .section .title h1 {
     font-weight: normal;
@@ -611,7 +611,6 @@ p {
     background:#FECE1A;
     padding:15px;
     margin:0;
-    height: 40px;
 }
 .testimonial .arrow {
     margin-left:10px;
@@ -1011,9 +1010,9 @@ p {
 
     }
     #portfolio-grid ul.rig.columns-6 li{
-        width:47.5%;
-        height:500px;
-         margin:0 0 1% 1%;
+        width:47.5% !important;
+        height:500px !important;
+         margin:0 0 1% 1% !important;
     }
     .zoom-container{
         width:100% !important;
@@ -1326,7 +1325,6 @@ ul.rig.columns-6 li {
     border-radius: 0;
     overflow: hidden;
     padding: 0;
-    height: 150px;
 }
 .zoom-container .zoom-caption h3 {
     display: block;
@@ -1367,7 +1365,7 @@ ul.rig.columns-6 li {
 
 
 ul.nav.nav-pills{
-font-size: 24px;
+
 }
 
 #pillsContain{

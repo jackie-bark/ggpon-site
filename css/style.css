@@ -1011,9 +1011,6 @@ p {
 
     }
     #portfolio-grid ul.rig.columns-6 li{
-        width:47.5% !important;
-        height:500px !important;
-         margin:0 0 1% 1% !important;
         width:47.5%;
         height:500px;
          margin:0 0 1% 1%;
@@ -1169,8 +1166,8 @@ hr.style1 {
 }
 
 .overlay {
-   background:transparent; 
-   position:relative; 
+   background:transparent;
+   position:relative;
    width:1920px;
    height:500px; /* your iframe height */
    top:500px;  /* your iframe height */
@@ -1198,7 +1195,7 @@ hr.style1 {
 	height:100%;
 	position:fixed;
 	z-index: 9999;
-} 
+}
 .loading{
 	/*background: url(../images/loading.png)center no-repeat;*/
 	width:100%;
@@ -1228,7 +1225,7 @@ ul.rig li {
     box-shadow: 0 0 5px #ddd; */
     font-size: 16px;
     font-size: 1rem;
-    vertical-align: top;    
+    vertical-align: top;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1304,7 +1301,7 @@ ul.rig.columns-6 li {
     font-size: 16px;
     font-size: 1rem;
     vertical-align: top;
-    
+
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1355,12 +1352,13 @@ ul.rig.columns-6 li {
 .zoom-container:hover .zoom-caption {
     background: none;
 }
+
 @media (max-width: 767px) {
     .zoom-container {
         width: 50%;
     }
 }
- 
+
 @media (max-width: 480px) {
     .zoom-container {
         width: 100%;
@@ -1369,11 +1367,9 @@ ul.rig.columns-6 li {
 
 
 ul.nav.nav-pills{
-
 font-size: 24px;
 }
 
 #pillsContain{
     background-color: #FECE1A;
 }
-
